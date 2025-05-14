@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh kumar on WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e04e174543.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Certificate">Certificate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I am <span>Adarsh kumar</span></h1>
+        </div>
+    </div>
+</div>
+<!-- About me -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hi, I am Adarsh kumar, Final-year CSE student at KIIT with experience in Java, Python, MySQL, and networking. Passionate about software development and problem solving.
+Open to both internship and placement opportunities to gain hands-on experience and grow in the tech industry.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">SKILLS</p>
+                    <p class="tab-links active-link" onclick="opentab('Relevant Coursework')">RELEVANT COURSEWORK</p>
+                    <p class="tab-links active-link" onclick="opentab('Education')">EDUCATIONAL HISTORY</p>
+                    <p class="tab-links active link" onclick="opentab('Languages')">LANGUAGES</p>
+                    <p class="tab-links active link" onclick="opentab('Extracurricular Activities')">EXTRACURRICULAR ACTIVITIES</p>
+                    <p class="tab-links active link" onclick="opentab('Strengths')">STRENGTHS</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>C, Java, Python, JavaScript, CSS, HTML</li>
+                        <li><span>Databases</span><br>MySQL, MongoDB</li>
+                        <li><span>Networking Tools</span><br>Cisco Packet Tracer</li>
+                        <li><span>OTHER SKILLS</span><br>DBMS, NETWORKING FUNDAMENTALS,
+                            MANUAL ROUTING, DNS CONFIGURATION</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Relevent Coursework">
+                    <ul>
+                        <li><span>CORE SUBJECTS</span><br></li>
+                        <li><span></span><br>DATA STRUCTURES & ALGORITHMS (DSA)</li>
+                        <li><span></span><br>DATABASE MANAGEMENT SYSTEMS (DBMS)</li>
+                        <li><span></span><br>COMPUTER NETWORKS</li>
+                        <li><span></span><br>OPERATING SYSTEMS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span></span><br>Matriculation from DAV, Munger - 8.2CGPA</li>
+                        <li><span></span><br>Intermediate from SBS, Lakhisarai - 7.1CGPA</li>
+                        <li><span></span><br>Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar
+                            B.Tech in Computer Science & Engineering (Graduation: 2026)
+                            SGPA in 5th semester : 7.3
+                            CGPA : 7.2</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Languages">
+                    <ul>
+                        <li><span>English</span><br>Fluent</li>
+                        <li><span>Hindi</span><br>Native</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tag" id="Extracurricular Activities">
+                    <ul>
+                        <li><span></span><br>Active participant in coding challenges on platforms like LeetCode, Neetcode, GeeksForGeeks.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tag" id="Strengths">
+                    <ul>
+                        <li><span></span><br>I enjoy building and fixing things using logic and creativity. I’m curious by nature and believe in learning by doing — whether it's debugging code or exploring a new framework</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Services -->
+ <div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p> Creating modern, responsive, and user-friendly websites.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crosshairs"></i>
+            <h2>UI/UX Design</h2>
+            <p> Designing intuitive and engaging user experiences.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-tablet-screen-button"></i>
+            <h2>App Design</h2>
+            <p> Building sleek and functional mobile and web apps.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Science</h2>
+            <p> Analyzing data to extract insights and drive decisions.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Portfolio -->
+ <div id="Project">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.png">
+                <div class="layer">
+                    <h3>Image Encryption using PSO</h3>
+                    <p>Developed encryption algorithms using Particle Swarm Optimization (PSO) to enhance image security.
+                        Validated system performance using real-world image datasets.
+                        Gained hands-on experience in cryptographic techniques and data security.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.webp">
+                <div class="layer">
+                    <h3>Hotel Management System</h3>
+                    <p>Developed a Hostel Management System it can store customer information and make online booking Easily. Applied database concepts, designing efficient schemas, optimizing performance and data integrity. Gained experience in designing and implementing system for storing hostel Booking details</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.webp">
+                <div class="layer">
+                    <h3>Network Security Analyzer (Using Python & Cisco Packet Tracer)</h3>
+                    <p>Developed a network security analyzer to monitor network traffic and detect security threats.
+                        Used Python & Scapy for packet sniffing and anomaly detection in network traffic.
+                        Integrated with Cisco Packet Tracer to simulate network attacks and analyze vulnerabilities.
+                        Implemented firewall rule testing to identify misconfigurations that could lead to security breaches.
+                        Designed a dashboard for real-time security alerts and analysis to enhance network protection.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+<div id="Certificate">
+    <div class="container">
+        <h1 class="sub-title">Certifications & Training</h1>
+        <div class="Certificates-list">
+        <div class="row">
+            <div class="Certifications & Training-left">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/17nJwcqCqtwa78v_F9EYFOT62Si4VOSxb/view?usp=drive_link" target="_blank">
+                    Data Structure in C - GREAT LEARNING
+                    </a>
+                    </p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/1aTXHe0TvVPvcmmNTX5MIoQv2a2yx8BZd/view?usp=sharing" target="_blank">
+                    PYTHON FOR MACHINE LEARNING – GREAT LEARNING
+                    </a>
+                    </p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/1wChldWzApe274BR-hM7Fl8VT-F_0KvCG/view?usp=sharing" target="_blank">
+                    JAVA PROGRAMMING – GREAT LEARNING
+                    </a>
+                    </p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/1fKYqyo1HofV34MIPjo9Nhcqv5kGTs_8V/view?usp=drive_link" target="_blank">
+                    Python - Cisco Networking Academy
+                    </a>
+                    </p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/1RcW8Su5UcHA0XRqVuzhpd7KTx24swGyC/view?usp=drive_link" target="_blank">
+                    JavaScript - Cisco Networking Academy
+                    </a>
+                    </p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/1_SW2ot99ROvQDd8hxSKWS8K5gb0CJNsS/view?usp=sharing" target="_blank">
+                    Ethical Decision Making forSuccess in theTech Industry - Coursera
+                    </a>
+                    </p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/1Nxz9kIX-mVOxUFMK_Bl52u1AZJ2h11Eq/view?usp=sharing" target="_blank">
+                    Business for Good: Fundamentals of Corporate Responsibility - coursera
+                    </a>
+                    </p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                    <p>
+                    <i class="fas fa-certificate"></i>
+                    <a href="https://drive.google.com/file/d/14ieiJqqLx5vMw9EUtaHl_TM7gwQfc_Er/view?usp=drive_link" target="_blank">
+                    Corporate Governance - coursera
+                    </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---contact--- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-square-envelope"></i> adarshkumarsingh5400@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +919065810941</p>
+                <p><i class="fa-solid fa-square-address"></i> KIIT CAMPUS Bhubnaeswar, Odisha</p> <br>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/adarsh-kumar-627531310/?trk=public-profile-join-page"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/adarsh5400"><i class="fab fa-github"></i></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100007885007900"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/adarshkumar5400/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://leetcode.com/u/Adarsh5400/"><i class="fab fa-code"></i></a>
+                </div>
+                <a href="resume dp (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                 <form action="https://script.google.com/macros/s/AKfycbxGRUcjrs5hTvnsx0N7ont8XX9logoP6jj-mRsw6ejTGz3N8ZhKsD7d0T5L_L4EqeDQ/exec" method="post">
+                    <input name="name" type="text" required>
+                    <input name="email" type="email" required>
+                    <input name="subject" type="text" required>
+                    <textarea name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Adarsh kumar. Made with <i class="fa-solid fa-heart"></i> by Adarsh kumar</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzSFnZK0DS77vLrWmxCVkOvKaNuqiufSyEqHIcgX1tDJSnpaoK8ZWndkL7DlY93kmE/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.style.display = "none";
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
